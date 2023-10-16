@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.navlogo{
+    height:50px;
+    width: 100px;
+
+}
+
+.logo{
+background-image: url("amazon_logo.png");
+ background-size: cover;
+    height: 50px;
+    width: 100%;
+   
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+/* style for add first and add second  */
+.addfirst{
+    color: #cccc;
+    font-size: 1rem;
+   
+}
+.addsecond{
+    font-size: 1rem;
+    margin-left: 3px;
+  
+
+
+}
+.add-iocn{
+    display: flex;
+    align-items: center;
+}
+
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 225, 33);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.navsearch:hover{
+    border: 2px solid yellow;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 20px;
+
+}
+.search-icon{
+    width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: black;
+   
+}
+
+
+/* #box four styling 
+ */
+
+
+ .span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 0.8rem;
+
+}
+
+
+.nav-cart i {
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panal */
+
+.panal{
+    height: 40px;
+    background-color: rgb(33, 30, 30);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+    
+}
+.panal-ops p{
+    display: inline;
+    color: rgb(243, 243, 243);
+    margin: 15px;
+}
+.panal-ops{
+    width: 80%;
+}
+
+.all-panal{
+    color: white;
+}
+
+
+
+.hero-secation{
+    background-image: url("a1hero.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-massage{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin: 25px;
+   
+}
+
+.hero-massage a{
+    color: rgb(82, 94, 94);
+
+}
+
+
+
+/* boxes ke liye css */
+.shop-secation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+
+}
+
+.box{
+    height: 350px;
+    /* border: 2px solid black; */
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+  
+
+}
+.box-img{
+    width: 328px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+   margin-bottom: 1rem;
+ 
+ 
+}
+
+.box-content{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+
+}
+
+
+    
+.box-content h2{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.foot-panal1{
+    background-color: #37475a;
+    color: white;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1rem;
+
+}
+
+.foot-panal2{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+
+ ul a {
+    display: block;
+
+margin: 10px;
+
+
+}
